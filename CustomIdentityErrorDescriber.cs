@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace pustokApp;
+namespace PustokApp;
 
 public class CustomIdentityErrorDescriber : IdentityErrorDescriber
 {

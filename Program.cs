@@ -15,7 +15,7 @@ builder.Services.AddScoped<BankManager>();
 builder.Services.AddScoped<LayoutService>();
 builder.Services.Configure<GroupInfoSettings>(config.GetSection("GroupInfo"));
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddPustokAppDbContext<PustokAppDbContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddSession(options =>
@@ -36,7 +36,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.Lockout.MaxFailedAccessAttempts = 5;
     opt.Lockout.AllowedForNewUsers = true;
 })
-.AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+.AddEntityFrameworkStores<PustokAppDbContext>().AddDefaultTokenProviders();
 var app = builder.Build();
 
 app.UseHttpsRedirection();

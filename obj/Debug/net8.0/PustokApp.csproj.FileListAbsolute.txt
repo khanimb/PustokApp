@@ -1,0 +1,9 @@
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.AssemblyInfoInputs.cache
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.AssemblyInfo.cs
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.csproj.CoreCompileInputs.cache
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.RazorAssemblyInfo.cache
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.RazorAssemblyInfo.cs
+C:\Users\Xanim\Desktop\PustokApp\obj\Debug\net8.0\PustokApp.sourcelink.json

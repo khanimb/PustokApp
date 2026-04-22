@@ -1,4 +1,4 @@
-@using PustokApp.Service
+ï»¿@using PustokApp.Service
 @using PustokApp.Services
 @inject LayoutService layoutService
 @{
@@ -28,7 +28,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 ">
                             <a href="index.html" class="site-brand">
-                                <img src="~/assets/image/@(settings != null && settings.ContainsKey("logourl") ? settings["logourl"] : "logo.png")" alt="">
+                                <img src="~/assets/image/@(settings != null && settings.ContainsKey("logourl") ? settings["logourl"] : "")" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3">
@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="text">
                                     <p>Free Support 24/7</p>
-                                    <p class="font-weight-bold number">@(settings != null && settings.ContainsKey("supportphone") ? settings["supportphone"] : "")</p>
+                                    <p class="font-weight-bold number">@(settings.ContainsKey("supportphone") ? settings["supportphone"] : "")</p>
                                 </div>
                             </div>
                         </div>
@@ -311,7 +311,7 @@
                                                 Shopping Cart
                                             </span>
                                             <span class="price">
-                                                £0.00
+                                                Â£0.00
                                                 <i class="fas fa-chevron-down"></i>
                                             </span>
                                         </div>
@@ -332,7 +332,7 @@
                     <div class="row align-items-sm-end align-items-center">
                         <div class="col-md-4 col-7">
                             <a href="index.html" class="site-brand">
-                                <img src="~/assets/image/@(settings != null && settings.ContainsKey("logo") ? settings["logo"] : "logo.png")" alt="">
+                                <img src="~/assets/image/logo.png" alt="">
                             </a>
                         </div>
                         <div class="col-md-5 order-3 order-md-2">
@@ -591,7 +591,7 @@
                                 <a href="#">Currency - USD $ <i class="fas fa-angle-down"></i></a>
                                 <ul class="sub-menu">
                                     <li> <a href="cart.html">USD $</a></li>
-                                    <li> <a href="checkout.html">EUR €</a></li>
+                                    <li> <a href="checkout.html">EUR â‚¬</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
@@ -826,15 +826,15 @@
                                     <p class="tag-block">Tags: <a href="#">Movado</a>, <a href="#">Omega</a></p>
                                     <h3 class="product-title">Beats EP Wired On-Ear Headphone-Black</h3>
                                     <ul class="list-unstyled">
-                                        <li>Ex Tax: <span class="list-value"> £60.24</span></li>
+                                        <li>Ex Tax: <span class="list-value"> Â£60.24</span></li>
                                         <li>Brands: <a href="#" class="list-value font-weight-bold"> Canon</a></li>
                                         <li>Product Code: <span class="list-value"> model1</span></li>
                                         <li>Reward Points: <span class="list-value"> 200</span></li>
                                         <li>Availability: <span class="list-value"> In Stock</span></li>
                                     </ul>
                                     <div class="price-block">
-                                        <span class="price-new">£73.79</span>
-                                        <del class="price-old">£91.86</del>
+                                        <span class="price-new">Â£73.79</span>
+                                        <del class="price-old">Â£91.86</del>
                                     </div>
                                     <div class="rating-widget">
                                         <div class="rating-block">
@@ -946,7 +946,7 @@
                             <img src="~/assets/image/logo--footer.png" alt="">
                         </div>
                         <div class="footer-contact">
-                            <p><span class="label">Address:</span><span class="text">@(settings != null && settings.ContainsKey("adress") ? settings["adress"] : "")</span></p>
+                            <p><span class="label">Address:</span><span class="text">@settings["adress"]</span></p>
                             <p><span class="label">Phone:</span><span class="text">+18088 234 5678</span></p>
                             <p><span class="label">Email:</span><span class="text">suport@hastech.com</span></p>
                         </div>
@@ -1012,7 +1012,7 @@
                 <a href="#" class="payment-block">
                     <img src="~/assets/image/icon/payment.png" alt="">
                 </a>
-                <p class="copyright-text">Copyright © 2022 <a href="#" class="author">Pustok</a>. All Right Reserved.
+                <p class="copyright-text">Copyright Â© 2022 <a href="#" class="author">Pustok</a>. All Right Reserved.
                     <br>
                     Design By Pustok</p>
             </div>

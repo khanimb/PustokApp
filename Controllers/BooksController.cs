@@ -5,7 +5,7 @@ using PustokApp.ViewModel;
 
 namespace PustokApp.Controllers
 {
-    public class BooksController(AppDbContext dbContext) : Controller
+    public class BooksController(PustokAppDbContext dbContext) : Controller
     {
         public IActionResult Details(Guid id)
         {

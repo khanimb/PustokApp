@@ -2,7 +2,7 @@ using PustokApp.Data;
 
 namespace PustokApp.Services
 {
-    public class LayoutService(AppDbContext context)
+    public class LayoutService(PustokAppDbContext context)
     {
         public Dictionary<string, string> GetSettings()
         {

@@ -15,7 +15,7 @@ builder.Services.AddScoped<BankManager>();
 builder.Services.AddScoped<LayoutService>();
 builder.Services.Configure<GroupInfoSettings>(config.GetSection("GroupInfo"));
 
-builder.Services.AddPustokAppDbContext<PustokAppDbContext>(options =>
+builder.Services.AddDbContext<PustokAppDbContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddSession(options =>

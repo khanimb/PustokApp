@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace PustokApp.Controllers
 {
-    public class HomeController(AppDbContext dbContext) : Controller
+    public class HomeController(PustokAppDbContext dbContext) : Controller
     {
 
 

@@ -40,13 +40,13 @@
                             <label for="desc" class="form-label fw-bold">Description</label>
                             <textarea class="form-control form-control-lg"
                                       id="desc"
-                                      name="Desc"
+                                      name="Description"
                                       rows="3"
-                                      placeholder="Enter book description">@(Model?.Desc ?? "")</textarea>
-                            @if (ViewData.ModelState["Desc"]?.Errors.Count > 0)
+                                      placeholder="Enter book description">@(Model?.Description ?? "")</textarea>
+                            @if (ViewData.ModelState["Description"]?.Errors.Count > 0)
                             {
                                 <div class="alert alert-danger mt-2 mb-0" role="alert">
-                                    @ViewData.ModelState["Desc"].Errors[0].ErrorMessage
+                                    @ViewData.ModelState["Description"].Errors[0].ErrorMessage
                                 </div>
                             }
                         </div>

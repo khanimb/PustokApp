@@ -24,7 +24,7 @@
 
                         <div class="mb-4">
                             <label for="desc" class="form-label fw-bold">Description</label>
-                            <textarea class="form-control form-control-lg" id="desc" name="Desc" rows="3" placeholder="Enter book description">@(Model?.Desc ?? "")</textarea>
+                            <textarea class="form-control form-control-lg" id="desc" name="Description" rows="3" placeholder="Enter book description">@(Model?.Description ?? "")</textarea>
                         </div>
 
                         <div class="mb-4">
@@ -106,9 +106,9 @@
                                                         <input class="form-check-input"
                                                                type="checkbox"
                                                                id="tag_@tag.Id"
-                                                               name="TagsId"
+                                                               name="TagIds"
                                                                value="@tag.Id"
-                                                               @(Model?.TagsId?.Contains(tag.Id) == true ? "checked" : "")>
+                                                               @(Model != null && Model.TagIds != null && Model.TagIds.Contains(tag.Id) ? "checked" : "")>
                                                         <label class="form-check-label" for="tag_@tag.Id">
                                                             <span class="badge bg-secondary">@tag.Name</span>
                                                         </label>

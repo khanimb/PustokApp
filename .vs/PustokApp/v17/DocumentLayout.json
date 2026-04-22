@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\Xanim\\Desktop\\PustokApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\shared\\_bookmodalpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\shared\\_bookmodalpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\shared\\bookspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\shared\\bookspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\customidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:customidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\attributes\\filelengthattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:attributes\\filetypesattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|c:\\users\\xanim\\desktop\\pustokapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47A87FFA-B449-4334-A724-30BAAFA02410}|PustokApp.csproj|solutionrelative:controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,11 +86,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:55:13.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:55:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:51:56.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\BooksPartialView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\BooksPartialView.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\BooksPartialView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\BooksPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:51:53.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_BookModalPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_BookModalPartialView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_BookModalPartialView.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_BookModalPartialView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_BookModalPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:51:50.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_BasketPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_BasketPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_BasketPartial.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_BasketPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_BasketPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:51:48.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:51:46.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:51:28.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:50:08.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T14:50:01.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -62,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -75,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "CustomIdentityErrorDescriber.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\CustomIdentityErrorDescriber.cs",
               "RelativeDocumentMoniker": "CustomIdentityErrorDescriber.cs",
@@ -87,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "PustokAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Data\\PustokAppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\PustokAppDbContext.cs",
@@ -99,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "FileTypesAttributes.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Attributes\\FileTypesAttributes.cs",
               "RelativeDocumentMoniker": "Attributes\\FileTypesAttributes.cs",
@@ -111,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "FileLengthAttributes.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Attributes\\FileLengthAttributes.cs",
               "RelativeDocumentMoniker": "Attributes\\FileLengthAttributes.cs",
@@ -123,19 +293,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T13:11:26.611Z"
+              "WhenOpened": "2026-04-22T13:11:26.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -143,11 +314,12 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T13:06:47.587Z"
+              "WhenOpened": "2026-04-22T13:06:47.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "BasketController.cs",
               "DocumentMoniker": "C:\\Users\\Xanim\\Desktop\\PustokApp\\Controllers\\BasketController.cs",
               "RelativeDocumentMoniker": "Controllers\\BasketController.cs",

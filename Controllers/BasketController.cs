@@ -10,7 +10,7 @@ using System.Text.Json;
 
 namespace PustokApp.Controllers;
 
-public class BasketController(AppDbContext context) : Controller
+public class BasketController(PustokAppDbContext context) : Controller
 {
     public IActionResult AddBasket(Guid id)
     {

@@ -8,9 +8,9 @@ namespace PustokApp.Areas.Manage.Controllers;
 [Area("Manage")]
 public class SliderController : Controller
 {
-    private readonly AppDbContext _context;
+    private readonly PustokAppDbContext _context;
 
-    public SliderController(AppDbContext context)
+    public SliderController(PustokAppDbContext context)
     {
         _context = context;
     }

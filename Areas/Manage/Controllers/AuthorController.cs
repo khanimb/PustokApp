@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using PustoApp.Data;
+using PustokApp.Data;
 using PustokApp.Models;
 
 namespace PustokApp.Areas.Manage.Controllers;
@@ -8,9 +8,9 @@ namespace PustokApp.Areas.Manage.Controllers;
 [Area("Manage")]
 public class AuthorController : Controller
 {
-    private readonly AppDbContext _context;
+    private readonly PustokAppDbContext _context;
 
-    public AuthorController(AppDbContext context)
+    public AuthorController(PustokAppDbContext context)
     {
         _context = context;
     }

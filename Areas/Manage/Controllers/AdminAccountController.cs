@@ -24,7 +24,6 @@ public class AdminAccountController(
             UserName = "admin",
             Email = "admin@pustok.com",
             FullName = "Admin User",
-            IsAdmin = true,
             EmailConfirmed = true
         };
 

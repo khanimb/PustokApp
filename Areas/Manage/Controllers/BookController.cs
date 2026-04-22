@@ -9,10 +9,10 @@ namespace PustokApp.Areas.Manage.Controllers;
 [Area("Manage")]
 public class BookController : Controller
 {
-    private readonly AppDbContext _context;
+    private readonly PustokAppDbContext _context;
     private readonly IWebHostEnvironment _env;
 
-    public BookController(AppDbContext context, IWebHostEnvironment env)
+    public BookController(PustokAppDbContext context, IWebHostEnvironment env)
     {
         _context = context;
         _env = env;
@@ -50,30 +50,30 @@ public class BookController : Controller
             return View(book);
         }
 
-        if (book.MainPhoto != null)
+        if (book.MainImage != null)
         {
-            var fileName = Guid.NewGuid() + Path.GetExtension(book.MainPhoto.FileName);
+            var fileName = Guid.NewGuid() + Path.GetExtension(book.MainImage.FileName);
             var path = Path.Combine(_env.WebRootPath, "assets", "image", "books", fileName);
             using var stream = new FileStream(path, FileMode.Create);
-            await book.MainPhoto.CopyToAsync(stream);
+            await book.MainImage.CopyToAsync(stream);
             book.MainImageUrl = fileName;
         }
 
-        if (book.HoverPhoto != null)
+        if (book.HoverImage != null)
         {
-            var fileName = Guid.NewGuid() + Path.GetExtension(book.HoverPhoto.FileName);
+            var fileName = Guid.NewGuid() + Path.GetExtension(book.HoverImage.FileName);
             var path = Path.Combine(_env.WebRootPath, "assets", "image", "books", fileName);
             using var stream = new FileStream(path, FileMode.Create);
-            await book.HoverPhoto.CopyToAsync(stream);
+            await book.HoverImage.CopyToAsync(stream);
             book.HoverImageUrl = fileName;
         }
 
         _context.Books.Add(book);
         await _context.SaveChangesAsync();
 
-        if (book.TagsId != null && book.TagsId.Count > 0)
+        if (book.TagIds != null && book.TagIds.Count > 0)
         {
-            foreach (var tagId in book.TagsId)
+            foreach (var tagId in book.TagIds)
             {
                 var bookTag = new BookTag { BookId = book.Id, TagId = tagId };
                 _context.BookTags.Add(bookTag);
@@ -85,7 +85,7 @@ public class BookController : Controller
     }
 
 
-    public async Task<IActionResult> Edit(int id)
+    public async Task<IActionResult> Edit(Guid id)
     {
         var book = await _context.Books.Include(b => b.BookTags).FirstOrDefaultAsync(b => b.Id == id);
         if (book == null)
@@ -94,21 +94,21 @@ public class BookController : Controller
         ViewBag.Authors = _context.Authors.ToList();
         ViewBag.Tags = _context.Tags.ToList();
 
-        book.TagsId = book.BookTags?.Select(bt => bt.TagId).ToList() ?? new List<int>();
+        book.TagIds = book.BookTags?.Select(bt => bt.TagId).ToList() ?? new List<Guid>();
 
         return View(book);
     }
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, Book book)
+    public async Task<IActionResult> Edit(Guid id, Book book)
     {
         if (id != book.Id)
             return NotFound();
 
         ModelState.Remove("Files");
-        ModelState.Remove("MainPhoto");
-        ModelState.Remove("HoverPhoto");
+        ModelState.Remove("MainImage");
+        ModelState.Remove("HoverImage");
 
         var existingBook = await _context.Books.AsNoTracking().FirstOrDefaultAsync(b => b.Id == id);
         if (existingBook == null)
@@ -121,9 +121,9 @@ public class BookController : Controller
             return View(book);
         }
 
-        if (book.MainPhoto != null)
+        if (book.MainImage != null)
         {
-            var file = book.MainPhoto;
+            var file = book.MainImage;
             if (file.Length > 0)
             {
                 var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
@@ -142,9 +142,9 @@ public class BookController : Controller
             book.MainImageUrl = existingBook.MainImageUrl;
         }
 
-        if (book.HoverPhoto != null)
+        if (book.HoverImage != null)
         {
-            var file = book.HoverPhoto;
+            var file = book.HoverImage;
             if (file.Length > 0)
             {
                 var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
@@ -169,9 +169,9 @@ public class BookController : Controller
         var existingTags = _context.BookTags.Where(bt => bt.BookId == id).ToList();
         _context.BookTags.RemoveRange(existingTags);
 
-        if (book.TagsId != null && book.TagsId.Count > 0)
+        if (book.TagIds != null && book.TagIds.Count > 0)
         {
-            foreach (var tagId in book.TagsId)
+            foreach (var tagId in book.TagIds)
             {
                 var bookTag = new BookTag { BookId = book.Id, TagId = tagId };
                 _context.BookTags.Add(bookTag);

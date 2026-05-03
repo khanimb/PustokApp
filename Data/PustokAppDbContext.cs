@@ -17,6 +17,7 @@ public class PustokAppDbContext : IdentityDbContext<AppUser>
     public DbSet<Tag> Tags { get; set; }
     public DbSet<Slider> Sliders { get; set; }
     public DbSet<BasketItem> BasketItems { get; set; }
+    public DbSet<ChatMessage> ChatMessages { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

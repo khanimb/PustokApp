@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PustokApp.Data;
+using PustokApp.Hubs;
 using PustokApp.Models;
 using PustokApp.Service;
 using PustokApp.Services;
@@ -14,6 +15,7 @@ builder.Services.AddScoped<BankService>();
 builder.Services.AddScoped<BankManager>();
 builder.Services.AddScoped<LayoutService>();
 builder.Services.Configure<GroupInfoSettings>(config.GetSection("GroupInfo"));
+builder.Services.AddSignalR();
 
 builder.Services.AddDbContext<PustokAppDbContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
@@ -38,7 +40,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 })
 .AddEntityFrameworkStores<PustokAppDbContext>().AddDefaultTokenProviders();
 var app = builder.Build();
-
+app.MapHub<ChatHub>("/chatHub");
 app.UseHttpsRedirection();
 app.UseSession();
 app.UseRouting();

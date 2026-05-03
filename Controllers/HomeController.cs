@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PustokApp.Data;
 using PustokApp.Models;
@@ -36,7 +36,25 @@ namespace PustokApp.Controllers
             return View(homeVm);
         }
 
+        public IActionResult Chat()
+        {
+            var messages = dbContext.ChatMessages
+                .OrderByDescending(m => m.Date)
+                .Take(20) // Son 20 mesajı gətir
+                .Select(m => new ChatMessageVM
+                {
+                    User = m.User,
+                    Text = m.Message,
+                    Date = m.Date.ToString("HH:mm")
+                }).ToList();
+
+            var model = new ChatVM { OldMessages = messages };
+            return View(model);
+        }
+
 
     }
 }
+
+   
 

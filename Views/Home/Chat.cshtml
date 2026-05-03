@@ -1,0 +1,14 @@
+﻿@model ChatVM
+
+<div class="chat-container">
+    <ul id="messagesList">
+        @foreach (var msg in Model.OldMessages)
+        {
+            <li><b>@msg.User</b> (@msg.Date): @msg.Text</li>
+        }
+    </ul>
+
+    <input type="text" id="userInput" placeholder="Adınız" />
+    <input type="text" id="messageInput" placeholder="Mesajınız" />
+    <button id="sendButton">Göndər</button>
+</div>
